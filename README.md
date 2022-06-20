@@ -6,3 +6,7 @@ Finance is your very own financial guru. Here, we want to get you comfortable ta
 
 Through Finance, you gain access to videos created by professionals and you can also work with certified financial planners who are commited yo help you reach your finance goals. We also provide clear strategies to manage budgets, payback loans and to get your hands on loads of money!
 
+Idea presentation: 
+UI/UX Design: 
+
+
