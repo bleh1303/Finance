@@ -1,0 +1,61 @@
+.navbar {
+  background-color:#116566;
+  margin: 0;
+  position: inherit;
+  z-index: 2;
+}
+
+.navbar, .navbar-expand-lg {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.logo {
+  padding-right: 8px;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-i {
+  padding: 12px 30px;
+}
+
+
+.navbar .nav-i .navi {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar-nav :hover {
+  background-color: #063132;
+  border-color: white;
+  text-decoration: none;
+}
+
+.nav-i:hover {
+  border-bottom: solid;
+  border-color: white;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #FFCB9B;
+  padding: 5px 14px 5px 14px;
+  text-decoration: none;
+  margin: 7px 13px;
+}
+
+.btn:hover {
+  background-color: #ffb87a;
+  text-decoration: none;
+}

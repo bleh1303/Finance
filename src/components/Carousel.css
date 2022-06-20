@@ -1,0 +1,14 @@
+
+
+.card {
+  width: 100%;
+  padding: 20px;
+}
+
+.img-fluid {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+
+  border-radius: 100%;
+}

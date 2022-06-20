@@ -1,0 +1,122 @@
+.home {
+  height: 690px;
+  background-image: url('images/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.heading {
+  margin: 10% auto;
+  color: white;
+  width: 60%;
+  text-align: center;
+
+}
+
+.heading h1 {
+  font-size: 5rem;
+  margin-bottom: 25px;
+}
+
+.big-btn {
+  font-size: 2rem;
+}
+
+#about {
+  margin: 8%;
+}
+
+#about h2 {
+  padding-bottom: 30px;
+  font-family: Ubuntu;
+  color:#116566;
+  font-weight: bolder;
+}
+
+
+
+#about p {
+  width:80%;
+  font-size: 1.15em;
+}
+
+#features,#testimonials {
+  height: 790px;
+  background-color: #FFCB9B;
+  background-image: url('images/template.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#testimonials .header {
+  color:#FFCB9B;
+  }
+
+#testimonials{
+  background-color: #116566;
+  text-align: center;
+  }
+
+.header {
+  text-align: center;
+  font-size: 4rem;
+  color:#116566;
+  margin-bottom: 2%;
+
+}
+
+#features{
+  padding: 10%;
+}
+
+
+#features .f1,.f2,.f3 {
+  width: 400px;
+  height: 7rem;
+  background-color:#116566;
+  margin: 30px;
+  display: flex;
+  border-radius: 100px;
+  padding: 3px;
+box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2), 2px 7px 11px 2px rgba(0, 0, 0, 0.19);
+position: relative;
+}
+
+#features .circle {
+  background-color: white;
+  border-radius: 100px;
+  width: 110px;
+  margin: 0;
+  box-shadow: 7px 3px 3px;
+}
+
+#features .ft2 {
+  display: flex;
+  justify-content: center;
+}
+
+#features .ft3 {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.para {
+  color: white;
+  width: 60%;
+  margin-left: 20px;
+  margin: auto;
+}
