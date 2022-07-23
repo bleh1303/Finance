@@ -5,18 +5,17 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-
 }
 
 #sidebar-wrapper {
     z-index: 1;
-    position: fixed;
-    right: 250px;
-    width: 20%;
-    height: 80%;
-    margin-right: -250px;
+    position: absolute;
+    right: 450px;
+    height: 35rem;
+    margin-right: -450px;
+    padding: 10px;
     overflow-y: auto;
-    background: #222;
+    background-color:#116566;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -24,14 +23,28 @@
 
 }
 
+.content {
+  font-size: 1.5rem;
+}
+
+.content-link {
+  text-decoration: none;
+  color: white;
+}
+
 .writing {
   padding: 10px;
   color: white;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
+
 .video {
-  height:550px;
-  background-color: lightgrey;
+  height:850px;
+  width: 100%;
 }
 
 .video h1 {
@@ -43,16 +56,38 @@
     position: absolute;
 }
 
-#wrapper {
-    padding-right: 250px;
-}
 
 #sidebar-wrapper {
-    width: 250px;
+    width: 100%;
 }
 
 .bottom {
 background-color:#116566;
 padding: 20px 20px 20px 10px;
 color: white;
+}
+
+.videoPlayer {
+   display: flex;
+   justify-content: center;
+}
+
+
+.profile .card{
+  box-shadow: 0 2px 5px  #ccc;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.profile .card h3{
+  font-weight: 600;
+}
+
+.profile .card .btn{
+  background-color: #f9b60dfa;
+  border-radius: 50px;
+  border: 0;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
 }

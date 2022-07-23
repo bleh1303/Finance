@@ -42,6 +42,16 @@
   border-color: white;
 }
 
+.navbar-toggler-icon {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
 .btn {
   -webkit-border-radius: 6;
   -moz-border-radius: 6;
