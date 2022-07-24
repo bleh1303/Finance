@@ -1,32 +1,8 @@
-import React,{useEffect, useState} from 'react'
-import {addDoc,collection} from "firebase/firestore";
-import {db,auth} from "../firebase-config";
-import {useNavigate} from "react-router-dom";
+import React,{ useState} from 'react'
 
-function Create({isAuth}) {
-
-  const navigate=useNavigate();
-
+function Create() {
   const [title,setTitle]=useState("");
   const [post,setPost]=useState("");
-  
-  const collectionReference = collection(db,"posts");
-
-  const createPost = async() => {
-     await addDoc(collectionReference,{
-      title:title,
-      post:post,
-      author: { name: auth.currentUser.displayName ,id:auth.currentUser.uid } 
-    });
-    navigate("/");
-  }
-
-  useEffect(() =>{
-    if(!isAuth)
-    {
-    navigate("/login");
-    }
-  }, []);
 
   return (
     <div className="createPage">
@@ -42,7 +18,7 @@ function Create({isAuth}) {
               <label>Post:</label>
               <textarea placeholder="Tell Us Your Story!" onChange={(e)=>{setPost(e.target.value)}}/>
         </div>
-        <button onClick={createPost}>Submit Post</button>
+        <button>Submit Post</button>
       </div>
     </div>
   )

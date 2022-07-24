@@ -12,7 +12,9 @@
 }
 
 .logo {
-  padding-right: 8px;
+  padding: 0 8px 3px 8px;
+  width:3.65rem;
+  height:3rem;
 }
 
 .navbar .navbar-brand {
@@ -47,8 +49,8 @@
 }
 
 @media (max-width: 800px) {
-  .navbar-nav {
-    text-align: center;
+  .navbar-brand {
+    float: left;
   }
 }
 
