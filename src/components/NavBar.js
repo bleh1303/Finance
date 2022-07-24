@@ -22,17 +22,12 @@ return(
             <Link className="navi" to="/">Home</Link>
           </li>
           <li className="nav-i">
-            <Link className="navi" to="/about">About Us</Link>
-          </li>
-          <li className="nav-i">
             <Link className="navi" to="/blog">Blog</Link>
           </li>
           <li className="nav-i">
             <Link className="navi" to="/chatbot">Contact Us</Link>
           </li>
-          <li className="nav-i">
-            <Link className="navi" to="/blog">Blog</Link>
-          </li>
+
           <li>
           <Link className="navi" to="/dashboard">
             <button type="button" className="btn">Dashboard</button>

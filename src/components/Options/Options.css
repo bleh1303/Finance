@@ -11,4 +11,22 @@
     background: transparent;
     text-align: center;
   }
+
+
+  .option-button {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #FFCB9B;
+    padding: 5px 14px 5px 14px;
+    text-decoration: none;
+    margin: 7px 13px;
+  }
   
+  .option-button:hover {
+    background-color: #ffb87a;
+    text-decoration: none;
+  }

@@ -1,40 +1,16 @@
 import React from 'react'
 import Logo from './images/Group 23.png';
+import bank from './images/bank.webp';
+import invest from './images/invest.jpg';
+import loan from './images/loan.webp';
+import risk from './images/risk.webp';
 
 function Dashboard() {
   return (
 <div class="dashboard">
-    <nav>
-      <ul>
-        <li>
-          <a><span class="nav-item ">
-            <h4>Hello User!</h4>
-          </span></a>
-</li>
-        <li><a href="#">
-          <i class="fas fa-menorah"></i>
-          <span class="nav-item">Dashboard</span>
-        </a></li>
-        <li><a href="#">
-          <i class="fas fa-comment"></i>
-          <span class="nav-item">Message</span>
-        </a></li>
-        <li><a href="#">
-          <i class="fas fa-database"></i>
-          <span class="nav-item">Report</span>
-        </a></li>
-        <li><a href="#">
-          <i class="fas fa-cog"></i>
-          <span class="nav-item">Settings</span>
-        </a></li>
+ 
 
-        <li><a href="#" class="logout">
-          <i class="fas fa-sign-out-alt"></i>
-          <span class="nav-item">Log out</span>
-        </a></li>
-      </ul>
-    </nav>
-
+    
 
     <section class="main">
       <div class="main-top">
@@ -43,13 +19,13 @@ function Dashboard() {
       </div>
       <div class="users">
         <div class="card">
-          <img src="./pic/img1.jpg" alt=" "/>
-          <h4>Financial woes</h4>
+        <img class="imge"  src={invest} />
+          <h4>How To Get Started On Investments</h4>
           <p>Level 3</p>
           <div class="per">
             <table>
               <tr>
-                <td><span>85%</span></td>
+                <td><span>14%</span></td>
               </tr>
               <tr>
                 <td>
@@ -61,13 +37,13 @@ function Dashboard() {
           <button>Get back to it!</button>
         </div>
         <div class="card">
-            <img src="./pic/img1.jpg" alt=" "/>
-            <h4>Financial woes</h4>
+        <img class="imge"  src={bank} />
+            <h4>The Fundamentals Of Banking</h4>
             <p>Level 3</p>
             <div class="per">
               <table>
                 <tr>
-                  <td><span>85%</span></td>
+                  <td><span>55%</span></td>
                 </tr>
                 <tr>
                   <td>
@@ -79,26 +55,8 @@ function Dashboard() {
             <button>Get back to it!</button>
           </div>
           <div class="card">
-            <img src="./pic/img1.jpg" alt=" "/>
-            <h4>Financial woes</h4>
-            <p>Level 3</p>
-            <div class="per">
-              <table>
-                <tr>
-                  <td><span>85%</span></td>
-                </tr>
-                <tr>
-                  <td>
-                      Ongoing
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <button>Get back to it!</button>
-          </div>
-          <div class="card">
-            <img src="./pic/img1.jpg" alt=""/>
-            <h4>Financial woes</h4>
+          <img class="imge"  src={risk} />
+            <h4>Risk Management And Insurance</h4>
             <p>Level 3</p>
             <div class="per">
               <table>
@@ -107,7 +65,25 @@ function Dashboard() {
                 </tr>
                 <tr>
                   <td>
-                     Completed
+                      Completed
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <button>Get back to it!</button>
+          </div>
+          <div class="card">
+          <img class="imge"  src={loan} />
+            <h4>How To Clear Off Your Loans</h4>
+            <p>Level 3</p>
+            <div class="per">
+              <table>
+                <tr>
+                  <td><span>33%</span></td>
+                </tr>
+                <tr>
+                  <td>
+                     Ongoing
                   </td>
                 </tr>
               </table>
@@ -134,38 +110,38 @@ function Dashboard() {
             <tbody>
               <tr>
                 <td>137001</td>
-                <td>Financial woes</td>
+                <td>How To Get Started On Investments</td>
                 <td>Ongoing</td>
-                <td>03-24-22</td>
+                <td>17-24-22</td>
                 <td>-</td>
-                <td>27/82</td>
+                <td>12/82</td>
                 <td><button>View</button></td>
               </tr>
               <tr class="active">
-                <td>137001</td>
-                <td>Financial woes</td>
-                <td>Ongoing</td>
-                <td>03-24-22</td>
+                <td>137010</td>
+                <td>Risk Management And Insurance</td>
+                <td>Completed</td>
+                <td>09-24-22</td>
                 <td>05-13-22</td>
                 <td>54/54</td>
                 <td><button>View</button></td>
               </tr>
               <tr>
-                <td>137001</td>
-                <td>Financial woes</td>
+                <td>137006</td>
+                <td>How To Clear Off Your Loans</td>
                 <td>Ongoing</td>
-                <td>03-24-22</td>
+                <td>28-24-22</td>
                 <td>-</td>
                 <td>27/82</td>
                 <td><button>View</button></td>
               </tr>
               <tr>
                 <td>137001</td>
-                <td>Financial woes</td>
+                <td>The Fundamentals Of Banking</td>
                 <td>Ongoing</td>
                 <td>03-24-22</td>
                 <td>-</td>
-                <td>27/82</td>
+                <td>45/82</td>
                 <td><button>View</button></td>
               </tr>
              
@@ -174,7 +150,9 @@ function Dashboard() {
         </div>
       </section>
     </section>
+    <button><i class='fas fa-comment-dots'></i></button>
   </div>
+
   )
 }
 

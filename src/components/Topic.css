@@ -1,6 +1,9 @@
+.videopage {
+    background-color:#343a40 ;
+}
 
 #wrapper {
-    padding-left: 0;
+    /* padding-left: 0; */
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -13,7 +16,7 @@
     right: 450px;
     height: 35rem;
     margin-right: -450px;
-    padding: 10px;
+    padding: 15px;
     overflow-y: auto;
     background-color:#116566;
     -webkit-transition: all 0.5s ease;
@@ -45,6 +48,8 @@
 .video {
   height:850px;
   width: 100%;
+  /* padding: -15px; */
+  margin: 0;
 }
 
 .video h1 {
@@ -90,4 +95,9 @@ color: white;
   border: 0;
   box-shadow: none;
   color: rgb(255, 255, 255);
+}
+
+.video col-sm-9{
+  margin:auto;
+  padding: 0%;
 }

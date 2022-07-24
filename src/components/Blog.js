@@ -40,12 +40,7 @@ function ChatSpace() {
     ))
     }
       
-    </div>
-    <div className='right col-md-3'>
-     <div className="right-box-top">      
-        <h1>Let Us Know About Your Story!</h1>
-        <Link to="/create"> <button className='btn btn-primary'>Create Post</button> </Link>
-     </div>
+   
     
      
     </div>
