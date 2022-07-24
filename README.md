@@ -1,6 +1,6 @@
 # Finance 
 
-## Hey There
+## Hey There 😊
 
 Financial literacy is necessary not just to help women better manage their household and personal finances, but also to provide them the power to pick and access the right financial services and products, as well as to create and run their own businesses. Women who work not only become financially independent but also have a significant impact on society at large and the country. Their money helps to support the family's budget. Positive effects are shown on the family's way of life, finances, children's education, and retirement assets.
 Therefore, we have found a solution. FinEd is a resource for learning about finance.
